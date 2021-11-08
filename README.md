@@ -1,3 +1,3 @@
 # coder-girl-class
 
-Javascript/Java Class
+Launchcode - Javascript/Java Class
