@@ -1,25 +1,11 @@
-//Function Basics
+// //Function Basics
 
-// traditiona declarations
-function plus(a,b){
-    var sum = a+b;
-    return sum;
-}
-console.log (plus (2,2));
-
-// definition expression 
-var plus = function(a,b) {
-    return console.log(a+b);
-}
-plus(2,2);
-
-//More examples
+// //Examples
 
 function sayHello() {
     console.log("Hello, World!");
  }
 sayHello();
-
 
 function hello (name){
     return `Hello, ${name}!`;
@@ -38,4 +24,29 @@ function plusTwo(num) {
  
  console.log(a);
 
+ //Function Input and Output
+ function sumToN(n){
+     let sum=0;
+     for (let i=0; i<=n; i++){
+         sum+=i;
+     }
+     return sum;
+ }
+ console.log(sumToN(7));
+ console.log(1+2+3+4+5+6+7)
+
+ function plusTwo(num) {
+    return num + 2;
+ };
  
+ let a = 2;
+ 
+ for (let i=0; i < 4; i++) {
+    a = plusTwo(a);
+    var roundNumber= (i+1);
+    // console.log("Round " + roundNumber + ":") ;
+    // console.log(a);
+ }
+ 
+ console.log(a);
+
