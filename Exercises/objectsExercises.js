@@ -1,29 +1,31 @@
-//Example of an object 
-// let person ={
-//     firstName= "John",
-//     lastName= "Doe",
-//     age = 16,
-//     favoriteColor="blue",
-//     languages = ['spanish', 'english', 'french']
-// };
+//Example 1 - person
 
-// Quiz 
-let tortoiseOne = {
-    age: 150,
-    species: "Galapagos Tortoise",
-    diet: ["pumpkins", "lettuce", "cabbage"]
- };
+let person ={
+   'firstName': "John",//property
+   'lastName': "Doe",
+   'favoriteSong': function () {//method
+      console.log(" Favorite song is ABC")
 
- let tortoiseTwo = {
-    age: 150,
-    species: "Galapagos Tortoise",
-    diet: ["pumpkins", "lettuce", "cabbage"],
- };
+   },
+   'age':30,
+   'dogs': 3
+}
 
- console.log(tortoiseOne.age === tortoiseTwo.age);
+// Example 2 - backpack
+const backpack ={
+   name: "Nike Backpack",
+   volume: 30,
+   color:"green",
+   pocketNumber:15,
+   straplength:{
+      left:26,
+      right:25,
+   },
+   lidOpen: false,
+   toggleLid:function(lidStatus){
+      this.lidOpen =lidStatus;
+   }
+};
 
- let num = Math.round(Math.random()*10);
+console.log(backpack);
 
-console.log(num);
-
-//
