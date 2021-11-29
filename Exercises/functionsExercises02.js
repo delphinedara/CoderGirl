@@ -35,3 +35,27 @@ var zero= cToF(0); console.log(zero);
 var twenty= cToF(20); console.log(twenty);
 var freezing= cToF(-40); console.log(freezing);
 var boiling= cToF(100); console.log(boiling);
+
+//Passing functions as arguments
+
+function printMessage(){
+    console.log("The future is now!");
+}
+
+setTimeout(printMessage, 5000); //setTimeout
+
+//The array method map examples
+let nums =[3.14, 80,20];
+let timesTwo = function (n){
+    return n*2;
+};
+let doubled = nums.map(timesTwo);
+console.log(nums);//map does not alter the original array
+console.log(doubled);
+
+let names = ["Chris", "Jim", "Sally", "Blake", "Paul"];
+// TODO: Write a mapping function
+// and pass it to .map()
+let firstInitials = names.map(name => name.charAt(0));
+console.log(firstInitials);
+

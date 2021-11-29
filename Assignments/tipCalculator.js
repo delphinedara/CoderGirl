@@ -12,9 +12,7 @@ function calculateTip (price,tip=0){
     } else {
         totalAmount =price;
     }
-
     return totalAmount;
-
 }
 
 console.log(calculateTip(100));
@@ -47,3 +45,4 @@ function tip(totalAmount, tip=10, returnTipOnly=false){
 
 var totalBill =tip(100,10);
 console.log(totalBill);
+
