@@ -11,7 +11,7 @@ greeting("Misty", 17, "water");
 function doMath(num){
     num=Number (num);
     if (num) {
-        //Is a reall number
+        //Is a real number
         var newNumber =(num+100)/3;
         return newNumber;
     } else {
@@ -25,7 +25,7 @@ console.log(customNum);
 var customNum = doMath("Caleb");
 console.log(customNum);
 
-//Create a function that converst Celcius to Fahrenheit
+//Create a function that convert Celcius to Fahrenheit
 function cToF(c_num) {
     var fahrenheit = (c_num *1.8) +32;
     return fahrenheit;
@@ -54,8 +54,10 @@ console.log(nums);//map does not alter the original array
 console.log(doubled);
 
 let names = ["Chris", "Jim", "Sally", "Blake", "Paul"];
-// TODO: Write a mapping function
+// Write a mapping function
 // and pass it to .map()
 let firstInitials = names.map(name => name.charAt(0));
 console.log(firstInitials);
+
+
 

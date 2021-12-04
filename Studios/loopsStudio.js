@@ -31,7 +31,3 @@ for (let i=0; i<str1.length; i++){
 }
 console.log(newWord);
 
-//Part C- Refinements
-//Bonus Mission
-//Modify your code to check each meal for kale. If present, after the meal output add,
-//  "Don't worry, you can have double chocolate tomorrow."

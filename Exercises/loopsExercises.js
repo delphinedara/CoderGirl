@@ -1,45 +1,45 @@
-// // //Sequential for loop examples
+//Sequential for loop examples
 
-// // for(var i = 0; i<=10; i +=1){
-// // console.log(i);
-// // }
+for(var i = 0; i<=10; i +=1){
+console.log(i);
+}
 
-// var deskItems = [
-//     "Cell Phone ",
-//     "Laptops ",
-//     "Glass",
-//     "Cup",
-//     "Book",
-//     "Pen"
-// ];
+var deskItems = [
+    "Cell Phone ",
+    "Laptops ",
+    "Glass",
+    "Cup",
+    "Book",
+    "Pen"
+];
 
-// // for (i=0;i<deskItems.length;i+=1){
-// //     console.log(deskItems[i])
-// // };
+for (i=0;i<deskItems.length;i+=1){
+    console.log(deskItems[i])
+};
 
-// // //Enumerative for loops examples
-// // for (var i in deskItems){
-// //     console.log(i, deskItems[i]);
-// // };
+//Enumerative for loops examples
+for (var i in deskItems){
+    console.log(i, deskItems[i]);
+};
 
-// //While loops
-// var i =0;
-// while (i<=10){
-//     console.log(i);
-//     i+=1;
-// }
+//While loops
+var i =0;
+while (i<=10){
+    console.log(i);
+    i+=1;
+}
 
-// //do while loop
+//do while loop
 
-// var popItem = "Cup";
-// do{
-//  console.log(
-//      "array has" +
-//      deskItems.length +
-//      " items as of now. This loop will go untol we pop Cup"
-//      );
-//      popItem=deskItems.pop();
-// } while (popItem !== "Cup");
+var popItem = "Cup";
+do{
+ console.log(
+     "array has" +
+     deskItems.length +
+     " items as of now. This loop will go untol we pop Cup"
+     );
+     popItem=deskItems.pop();
+} while (popItem !== "Cup");
 
 
 // Exercises 
@@ -73,10 +73,10 @@ for (let i = 0; i < arr.length; i++) {
  }
 
 // Print each character of the string---in reverse order---to a new line.
-// function reverseString(str) {
-//     return str.split("").reverse().join("");
-// }
-// console.log (reverseString("Launchcode"));
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}
+console.log (reverseString("Launchcode"));
 
 var reversedStr="";
 for (var i = str.length -1; i >= 0; i--) {

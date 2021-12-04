@@ -44,8 +44,7 @@ function plusTwo(num) {
  for (let i=0; i < 4; i++) {
     a = plusTwo(a);
     var roundNumber= (i+1);
-    // console.log("Round " + roundNumber + ":") ;
-    // console.log(a);
+  
  }
  
  console.log(a);
