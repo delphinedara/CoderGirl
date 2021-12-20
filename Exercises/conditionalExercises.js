@@ -17,7 +17,7 @@ if (engineIndicatorLight === "green") {
 
 
  // Conditional Exercise #2
- let engineIndicatorLight = "red blinking";
+ engineIndicatorLight = "red blinking";
  let spaceSuitsOn = true;
  let shuttleCabinReady = true;
  let crewStatus = spaceSuitsOn && shuttleCabinReady;

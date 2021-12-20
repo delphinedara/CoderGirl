@@ -115,10 +115,7 @@ const groceries = [
     { item: 'broccoli', type: 'vegetable' },
   ];
   //filter the array to only include fruit
-//    const fruit = groceries.filter((item) =>{
-//        return item.type ==='fruit';
-//    });
-//    console.log(fruit);
+  
 const fruit =groceries.filter((item) => item.type ==='fruit');
 console.log(fruit);
 

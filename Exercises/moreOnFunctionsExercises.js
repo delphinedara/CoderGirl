@@ -13,18 +13,35 @@ let reverseFunc = function(str) {
     let reversedLettersArray = lettersArray.reverse();
     return reversedLettersArray.join('');
  };
-
-//  Create an anonymous function and set it equal to a variable. Your function should:
-let random = function(element){
-  // If passed a number, return the tripled value.  
-  if (typeof(element ==='number') {
-      return element *3;
-  }
-
-  // If passed a string, return the string "ARRR!"
-// If NOT passed a number or string, return the data unchanged.
-// Check your solution.
+// Calculate the area and volume of a box
+function getSize(width, height, depth){
+    var area= width * height;
+    var volume= width* height *depth;
+    var sizes =[area, volume];
+    return sizes;
 }
+
+
+
+//Exercise 1 Part A & B
+let arr = ['Elocution', 21, 'Clean teeth', 100] 
+
+let modifyArr =function(a){
+    if (typeof a === "number"){
+        return a*3;
+    } else if (typeof a === "string"){
+        return a="ARRY";
+    }else{
+        return a;
+    }
+    };
+
+let newArr = arr.map(modifyArr);
+
+console.log(arr);
+console.log(newArr);
+
+//Exercise 2
 
 
 

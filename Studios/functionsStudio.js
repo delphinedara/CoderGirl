@@ -28,20 +28,13 @@ function reverseCharacters(character){
 
 // Create a new function with one parameter, which is the array we want to change. The function should:
 function reversal(arr){
-    // Define and initialize an empty array
     let newArr =[]; 
-
-     // Loop through the old array.
     for (let i=0; i < arr.length; i++){
-        // For each element in the old array, call reverseCharacters to flip the characters or digits.
-        let reversedValue = reverseCharacters(arr[i]);
-
-        // Add the reversed string (or number) to the array defined in part 'a'
-        newArr.push(reversedValue);
+    let reversedValue = reverseCharacters(arr[i]);
+    newArr.push(reversedValue);
     }
-    //Return the final, reversed array.
     return console.log(newArr);
-    
+
 }
 
 // Be sure to print the results from each test case in order to verify your code. 

@@ -22,8 +22,6 @@ function doMath(num){
 
 var customNum = doMath(345);
 console.log(customNum);
-var customNum = doMath("Caleb");
-console.log(customNum);
 
 //Create a function that convert Celcius to Fahrenheit
 function cToF(c_num) {
