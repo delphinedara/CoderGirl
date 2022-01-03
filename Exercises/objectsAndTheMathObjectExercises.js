@@ -99,7 +99,6 @@ let superChimpOne = {
  
  // Before these animal astronauts can get ready for launch, they need to take a physical fitness test. Define a fitnessTest function that takes an array as a parameter.
  
- 
  function fitnessTest(crew) {
    let results = [], numSteps, turns;
    for (let i = 0; i < crew.length; i++) {

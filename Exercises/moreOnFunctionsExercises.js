@@ -22,7 +22,6 @@ function getSize(width, height, depth){
 }
 
 
-
 //Exercise 1 Part A & B
 let arr = ['Elocution', 21, 'Clean teeth', 100] 
 
@@ -41,7 +40,7 @@ let newArr = arr.map(modifyArr);
 console.log(arr);
 console.log(newArr);
 
-//Exercise 2
+
 
 
 

@@ -1,6 +1,4 @@
-/* Let's have some fun by creating a process that 
-reverses BOTH the order of the entries in an array 
-AND the order of characters within the individual elements.*/
+
 
 //  Part 1 Reverse String
 function reverseString(str) {
@@ -41,4 +39,18 @@ function reversal(arr){
 let arr = ['hello', 'world', 123, 'orange'];
 console.log(reversal(arr));
 
+//Bonus
 
+//Area of rectangle
+function calculateRectangleArea(length, width) {
+
+    let area;
+    if (!width) {
+      area = length * length;
+    } else {
+      area = length * width;
+    }
+    return `The areas is ${area} cm^2.`
+  }
+
+  
