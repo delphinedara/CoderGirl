@@ -1,6 +1,5 @@
 //LinkedIn Learning Course - Javascript: Arrays with Jamie Pittman
 
-
 // Length property and direct assignment
 
 const pets = ['dog', 'cat', 'rabbit', 'hamster'];

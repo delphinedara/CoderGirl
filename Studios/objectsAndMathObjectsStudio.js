@@ -146,4 +146,3 @@ function crewMass(selectedCrew){
 
   console.log(`The mission has a launch mass of ${crewMass(crew)} kg and requires ${fuelRequired(crew)} kg of fuel.'`)
   
-gi
