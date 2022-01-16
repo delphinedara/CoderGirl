@@ -46,8 +46,3 @@ class Book {
   
   let topSecretShuttleBuilding = new Manual ("Top Secret Shuttle Building Manual",  "Redacted", 2013, 0000000000000, 1147, 1, false );
   
-  
-  
-//   prideAndPrejudice.dispose();
-//   topSecretShuttleBuilding.checkout(5);
-//   topSecretShuttleBuilding.dispose();
