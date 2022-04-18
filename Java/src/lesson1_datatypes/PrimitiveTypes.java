@@ -24,10 +24,19 @@ public class PrimitiveTypes {
 
         //long
         long theLongValue = 100l;
+        long theMinLongValue = Long.MIN_VALUE;
+        long theMaxLongValue = Long.MAX_VALUE;
+        System.out.println(theMinLongValue);
+        System.out.println(theMaxLongValue);
 
         //float
 
+
+
         //char
+        char myVariable = 'K'; //primitive
+        Character myVar2 ='@'; //boxing --> helpful methods
+
 
         //boolean
         boolean b1 = true;

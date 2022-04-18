@@ -1,12 +1,18 @@
 package lesson2_controlflowandcollections;
 
 
+import java.util.Scanner;
+
 public class PrintWeekDays {
     public static void main(String[] args){
-        printDayOfTheWeek(-1);
+        printDayOfTheWeek(1);
 
     }
     private static void printDayOfTheWeek(int day){
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter an integer: ");
+
+        day =in.nextInt();
         switch (day){
             case 0:
                 System.out.println("Sunday");

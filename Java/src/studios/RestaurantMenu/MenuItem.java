@@ -1,4 +1,4 @@
-package lesson3_classes;
+package studios.restaurantMenu;
 
 public class MenuItem {
     //Class variables
